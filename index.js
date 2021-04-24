@@ -10,3 +10,4 @@ app.listen(3000);
 app.get('/', (_, res) => {
   res.send(ssr());
 });
+
