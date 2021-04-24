@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
