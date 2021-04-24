@@ -2,8 +2,8 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import CountUp from './CountUp';
 
-// React ElementをHTMLに変換
-const ssr = () => (`
+// 返り値の型を指定しました。
+const ssr = (): string => (`
   <html>
     <head>
       <title>CountUp</title>

@@ -56,6 +56,7 @@ function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "und
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 var CountUp = function CountUp() {
+  // 返り値の型を指定しました。
   var _useState = (0, _react.useState)(0),
       _useState2 = _slicedToArray(_useState, 2),
       count = _useState2[0],

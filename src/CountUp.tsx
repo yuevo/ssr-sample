@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CountUp = () => {
+const CountUp = (): JSX.Element => { // 返り値の型を指定しました。
   const [count, setCount] = useState(0);
 
   return (
@@ -11,4 +11,5 @@ const CountUp = () => {
     </>
   );
 };
+
 export default CountUp;
